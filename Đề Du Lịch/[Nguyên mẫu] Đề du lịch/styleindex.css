@@ -1,0 +1,67 @@
+.banner img{
+    width: 100%;
+}
+
+.menu img{
+    width: 29%;
+    
+}
+
+.menu h4{
+    color: orange;
+    border-bottom: 5px solid rgb(70, 177, 213);
+    
+}
+
+.menu-item{
+    display: flex;
+}
+
+.menu-item{
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.hotel{
+    color: aqua;
+    text-align: center;
+}
+
+.hotel-item img{
+  width: 100%;
+  position: relative;
+}
+
+.hotel-item h3{
+    color: white;
+    position: absolute;
+    bottom: 5px;
+    padding-left: 22%;
+}
+
+.table h2{
+    text-align: center;
+    color: aqua;
+}
+
+thead{
+    color: green
+}
+
+tbody{
+    color: orange;
+}
+
+.footer{
+    background-color: rgb(25, 189, 146);
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+    .menu{
+       margin: auto;
+    }
+}
