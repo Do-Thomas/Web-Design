@@ -1,0 +1,112 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-header img {
+    width: 80%;
+    height: 80%;
+}
+
+.navbar-header li {
+    display: inline;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.navbar-header li a {
+    text-decoration: none;
+    color: aqua;
+}
+
+.button-header button {
+    background-color: black;
+    color: white;
+}
+
+.banner img {
+    width:100%;
+}
+
+.container {
+    display: flex;
+}
+
+.title {
+    color: red;
+    text-align: center;
+}
+
+.content_left img {
+    box-shadow: 10px 10px 10px 10px rgb(195, 180, 180, 0.5);
+    margin-left: 70px;
+    padding-bottom: 40px;
+    width: 80%;
+    height: 83%;
+    
+}
+
+.content_right {
+    box-shadow: 10px 10px 10px 10px rgb(195, 180, 180, 0.5);
+    padding-left: 20px;
+    margin-right: 70px;
+    padding-bottom: 45px;
+    height: 100%;
+    width: 50%;
+}
+
+h2{
+    color:rgb(8, 153, 225);
+}
+
+.content_right p{
+    border-bottom: 1px solid rgb(57, 49, 49, 0.5);
+}
+
+.seller_item{
+    width: 60%;
+    margin: 20px;
+    box-shadow: 10px 10px 10px 10px rgb(195, 180, 180, 0.5);
+
+}
+
+.seller_item-border{
+    background-color: orange;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    
+    
+}
+.seller_item-picture-1 img{
+    width: 74%;
+    margin-left: 40px;
+}
+
+.seller_item-picture-2 img{
+width: 91.3%;
+}
+
+.seller_item-picture-3 img{
+    width: 70.2%;
+    margin-left: 50px;
+}
+
+.seller_item-picture-4 img{
+    width: 85.6%;
+}
+
+.footer{
+    background-color: rgb(17, 165, 165);
+    color: white;
+    padding: 30px 30px;
+}
+.footer-table{
+    width: 70%;
+    padding-left: 250px;
+}
+
+.footer h4{
+    text-align: center;
+}
