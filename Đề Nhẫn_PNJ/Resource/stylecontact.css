@@ -1,0 +1,12 @@
+.table{
+    margin-right: auto;
+}
+
+.mytable input{
+    height: 30px;
+    width: 300px;
+}
+
+.send{
+    text-align: center;
+}

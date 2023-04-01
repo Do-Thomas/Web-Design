@@ -1,0 +1,27 @@
+.item{
+    height: 100%;
+}
+
+.body-header{
+    text-align: center;
+}
+
+.item h2{
+    color: blue;
+    font-size: 20px;
+    text-align: center;
+}
+
+.item p{
+    color: red;
+    text-align: center;
+}
+
+.footer{
+    background-color:rgb(202, 198, 198);
+}
+
+.footer-1 ul{
+    list-style: none;
+    text-decoration: none;
+}
