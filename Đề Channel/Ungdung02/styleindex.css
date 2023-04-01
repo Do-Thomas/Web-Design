@@ -1,0 +1,126 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-img img{
+    width: 20%;
+}
+
+.header-menu ul {
+    display: flex;
+    list-style: none;
+    margin-right: 350px;
+}
+
+.header-menu li {
+    margin-right: 30px;
+}
+
+.header-menu a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.header-search form{
+   padding-right: 50px;
+}
+.header-search button {
+    background-color: black;
+    color: white;
+ 
+}
+
+.banner img {
+    width: 100%;
+}
+
+.title {
+    color: red;
+    text-align: center;
+}
+
+.container-list {
+    display: flex;
+    width: 80%;
+    margin-left: 150px;
+}
+
+.list-item {
+    box-shadow: 0 0 8px;
+    padding-bottom: 25px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 25px;
+    border: radius 5px;px;
+    width: 60%;
+}
+
+.list-item img {
+    width: 50%;
+    height: 50%;
+}
+
+.pic2 img{
+    padding-bottom: 20px;
+}
+.list-item p {
+    color: red;
+}
+
+.list-item del {
+    color: gray;
+}
+
+.list-item div {
+    color: white;
+    background-color: rgb(243, 159, 26);
+    padding: 10px;
+    border-radius: 8px;
+    width: fit-content;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+.banner-2 h2 {
+    color: white;
+    position: relative;
+    text-align: center;
+    bottom: 10em;
+    font-size: 55px;
+}
+
+.banner-2 img {
+    width: 100%;
+}
+
+.container {
+    display: flex;
+}
+
+.container-seller {
+    border-radius: 1px 1px 0 solid white;
+    box-shadow: 0 0 8px;
+    width: 45%;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    margin-top: -120px;
+}
+
+.container-seller img {
+    width: 50%;
+    float: left;
+}
+
+.container-seller p{
+    text-align: justify;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+.footer {
+    background-color: rgb(33, 30, 30);
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
