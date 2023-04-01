@@ -1,0 +1,99 @@
+/* mất thanh ngang màn hình - thu nhỏ màn hình */
+body {
+    overflow-x: hidden;
+}
+
+.header_logo {
+    text-align: center;
+}
+
+.header_logo img {
+    width: 120px;
+    height: 90px;
+    padding-bottom: 20px;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.title {
+    text-align: center;
+}
+
+.seller-item img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.seller-item-content {
+    padding: 15px;
+    background-color: rgb(196, 187, 187);
+    position: relative;
+}
+
+.seller-item-text {
+    color: aliceblue;
+    background-color: rgba(196, 187, 187, 0.5);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+}
+
+.seller-item-text h5{
+    margin-bottom: 0;
+}
+
+/* lấy kích thước của hình nhỏ - cho bằng nhau */
+.sale_off-item img {
+    width: 360px;
+    height: 360px;
+}
+
+.showroom-image img {
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.sale_off-text{
+    background-color: rgb(175, 153, 153);
+}
+/* kẻ gạch dưới  */
+.sale_off-text p:first-child{
+    border-bottom: 1px solid black;
+}
+
+.sale_off-text p:nth-child(2) span{
+    font-weight: bold;
+}
+
+.sale_off-text p:nth-child(3) span {
+    color: rgb(220, 51, 51);
+}
+
+.showroom-map iframe {
+    width: 555px;
+    height: 416px;
+    padding-bottom: 20px;
+}
+
+.footer {
+    background-color: black;
+    padding: 10px 0;
+    color: white;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .seller-item{
+        margin: 20px 0;
+    }
+    .hidden-mobile {
+        display: none;
+    }
+}
+    
