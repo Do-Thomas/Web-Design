@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>F8-Shop</title>
+    <meta charset="utf-8">
+    <style>
+        .box {
+            width: 60px;
+            height: 60px;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* Đẩy sang trái, tạo thành hàng ngang */
+            float: left;
+        }
+        /* Margin */
+        .box1{
+            background-color: aquamarine;
+            margin-left: 20px;
+            /* viết tắt */
+            margin: 10px 10px 20px;
+        }
+
+        /* Border */
+        .box2{
+            background-color: rgb(39, 1, 190);
+            border-width: 10px;
+            /* viết tắt */
+            border: 10px dashed blueviolet;
+            border-style:dashed;
+            border-color: blueviolet;
+        }
+
+        /* Padding */
+        .box3{
+            background-color: rgb(161, 136, 98);
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            /* tăng top-bottom: 10px, left-right: 12px */
+            padding: 10px 12px;
+            /* Tăng top: 10px, bottom: 8px, left-right:12px */
+            padding: 10px 12px 8px;
+        }
+
+        .square {
+           width: 100px;
+           height: 100px;
+           color: #fff;
+           background-color: rgb(192, 25, 117);
+           padding: 20px; 
+           box-sizing: unset; 
+           /* unset: hủy những attribute trên */
+           /* Padding, border ko quá lớn*/
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box box1">Box 1</div>
+    <div class="box box2">Box 2</div>
+    <div class="box box3">Box 3</div>
+
+    <div class="square">Here</div>
+</body>
+
+</html>
+<!-- Bỏ gạch chân mặc định của thẻ a -->
+<!-- text-decoration: none; -->
+
+<!-- Padding: đệm thêm vào, tăng thêm kích thước ban đầu-->
+<!-- Border: viền, có nét liền ngoài viền -->
+=> Padding, Border đều tăng kích thước.
+<!-- Margin: tạo khoảng trống cho box, ko tăng kích thước ban đầu-->

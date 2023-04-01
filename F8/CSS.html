@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <tittle>F8-Shop</tittle>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="CSS\style_css.css">
+        <!-- 1.Internal
+        <style>
+            h1{
+                color: red;
+                font-size: 30px;
+            }
+        </style> -->
+
+
+    </head>
+
+    <body>
+        <div>
+            <!-- 3.Inline -->
+            <h1 style ="color: green; font-size: 16px">CSS in HTML?</h1>
+            <ol>
+                <li>Internal</li>
+                <li>External</li>
+                <li>Inline</li>
+            </ol>
+        </div>
+    </body>
+</html>
+
+<!-- Độ ưu tiên trong CSS
+1. Internal, External ko có ưu tiên
+=> Ai vào sau thì xài.
+2. Inline - 1000 - is the best: style.....
+3. #id - 100
+4. .class - 10
+5. tag - 1
+6. Equal specificity?
+=> gọi 2 attribute giống tên nhưng khác body.
+=> Lấy thằng sau cùng đổ vào
+#id .class > #id.
+Ex: #heading-id.heading-class > #heading-id
+=>>>> Nhiều điểm thì thắng..+..+..+..+
+
+7. Universal selecotr and inherited? kế thừa
+======================================
+*{
+    color: red;
+}
+
+OR ====================================
+
+html {
+    color: violet;
+}
+
+OR =====================================
+li{
+    color: red !important;
+}
+-->
+
+<!-- !important: độ ưu tiên vô đối -->

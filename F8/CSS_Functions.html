@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>F8-Shop</title>
+        <meta charset="utf-8">
+
+        <style>
+            .box{
+                width: calc(80%);
+                height: 120px;
+                background: rgba(13, 215, 13, 0.747);
+            }
+            
+            .box::after{
+                content: attr(data-tittle);
+            }
+            /* Lớp giả */
+            a::after{
+                content: " (" attr(href) ")";
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="box" data-tittle="Màu xanh"></div>
+        <a href="https://fullstack.edu.vn">Học lập trình</a>
+        <h1>CSS function</h1>
+        <ul>
+            <li>var()</li>
+            <li>linear-gradient()</li>
+            <li>rgba()</li>
+            <li>rgb()</li>
+            <li>calc()</li>
+            <li>attr()</li>
+        </ul>
+    </body>
+</html>

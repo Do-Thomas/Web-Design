@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>F8-Shop</title>
+        <meta charset="utf-8">
+        <style>
+            html, body{
+                margin: 0;
+            }
+
+            /* h1 {
+                position: relative;
+                top: 100px;
+            } */
+
+            .box{
+                width: 100%;
+                height: 120px;
+                background-color: #333;
+                position: relative;
+            }
+
+            .box-child{
+                background-color: rgb(101, 135, 150);
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                right: 0;
+                left:0;
+            }
+            /* Fixed */
+            .header {
+                width: 100%;
+                height: 42px;
+                background-color: #333;
+                position: fixed;
+                bottom: 0;
+            }
+            
+            .h1{
+                margin-top: 60px;
+                position: sticky;
+                position: -webkit-sticky;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <div class="box">
+            Hello
+            <div class="box-child"></div>
+        </div>
+        <h1>Position</h1>
+        <ul> 
+            <!-- Relative: ko bị phụ thuộc, lấy chính làm gốc tọa độ-->
+            <li>Relative: tương đối</li>
+            <!-- Phụ thuộc thẻ cha gần nhất(có position) làm mốc tọa độ -->
+            <li>Absolute</li>
+            <!-- Fixed: Cố định menu dính của trình duyệt -->
+            <li>Fixed</li>
+            <!-- Sticky: làm menu -->
+            <li>Sticky</li>
+        </ul>
+        <div class="header"></div>
+    </body>
+</html>

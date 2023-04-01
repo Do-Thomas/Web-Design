@@ -1,0 +1,40 @@
+.{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    --height: 100px;
+    background-color: orange;
+    height: var(--height);
+    display: flex;
+    align-items: center;
+    /* căn giữa 3 center me ra giữa, nhưng dính lại */
+    justify-content: center;
+    /* căn mép 3 center me */
+    justify-content: space-between;
+    position: relative ;
+}
+/* text-align: có tính chất kế thừa */
+h3{
+    /* căn giữa center me */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* text-align: center;
+    line-height: var(--height) */
+    /* margin: auto; */
+    border-left: 3px solid #333;
+    padding-left: 8px;
+}
+
+h3::after {
+    position: absolute;
+    left: 0;
+    content: "";
+    border-left: 3px solid #333;
+    height: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+}

@@ -1,0 +1,19 @@
+/* Lớp giả: root */
+/* Biến toàn cục: global */
+:root{
+    --text-color: green;
+}
+
+h1 {
+    /* Biến cục bộ: local */
+    --my-color: orange;
+    color: var(--text-color);
+}
+
+h2 {
+    color: var(--text-color);
+}
+
+h3 {
+    color: var(--text-color);
+}

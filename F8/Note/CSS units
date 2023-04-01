@@ -1,0 +1,21 @@
+1. Absolute units:
+px: điểm ảnh trên màn hình
+pt: 
+cm: 
+mm: 
+inch:
+pc:
+
+2. Relative units: giá trị tương đố
+vh: tính theo màn hình.
+
+* {
+    margin: 0; /* Loại bỏ margin mặc định */
+    padding: 0; /* Loại bỏ padding mặc định */
+}
+font-size: 1rem, thì giá trị 1rem này sẽ phụ thuộc vào giá trị font-size được đặt cho thẻ html,
+
+
+Mốt số hàm trong CSS
+var()
+

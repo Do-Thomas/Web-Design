@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> F8 - Shop </title>
+        <meta charset="utf-8">
+        <style>
+            html, body {
+                margin: 0;
+            }
+
+            .header{
+                width: 100%;
+                height: 100vh;
+                background-image: url(https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Real_Madrid_CF.svg/1200px-Real_Madrid_CF.svg.png);
+                /* Xét theo chiều ngang của ảnh: 80%*/
+                background-size:  80%;
+                /* Chỉ lấy 1 ảnh làm background nếu chia 2 dòng */
+                /* linear-gradient: xoay 180 deg, 90deg, -90deg, 0 */
+                background-image: linear-gradient(180deg, rgba(0,0,255, 0.5), #ccc),
+                url(https://png.pngtree.com/png-clipart/20210529/ourlarge/pngtree-premium-purple-real-stars-design-png-image_3390875.jpg)
+                ,url(https://www.thesun.co.uk/wp-content/uploads/2021/12/SOCCER-Juventus-164117jpg-JS419425266.jpg);
+                background-size: 50%;
+                background-size: contain;
+                padding: 20px;
+                border: 20px dashed #222;
+                box-sizing: border-box;
+                background-origin: border-box;
+                background-repeat: no-repeat;
+            }
+
+            .box{
+                width: 100%;
+                height: 100vh;
+                background-image: url(https://i.pinimg.com/originals/dd/ae/fd/ddaefd005f944210e69015224049a5a5.jpg);
+                background-repeat: no-repeat;
+                background-size: 200px;
+                /* 1 tham số, tham số thứ 2 là center */
+                background-position: bottom center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header"></div>
+        <div class="box"></div>
+    </body>
+</html>

@@ -1,0 +1,17 @@
+/*2. External */
+/* h1{
+    color: red;
+    font-size: 30px;
+} */
+
+/* ========================== */
+/* CSS selectors */
+/* id: # */
+#first-heading{
+    color: red;
+}
+/* class: . chấm */
+.second-heading{
+    color: green;
+    font-size: 20px;
+}
