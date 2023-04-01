@@ -1,0 +1,118 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50% ;
+    border: 3px solid green;
+    align-items: center;
+}
+.header_left {
+    font-size: 40px;
+    font-weight: bold;
+    color: green;
+    padding-left: 1.5em;
+}
+.header_right{
+    font-size: 40px;
+    font-weight: bold;
+    color: green;
+    padding-right: 1.5em;
+}
+
+.menu {
+    background-color: green;
+}
+.navbar {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.navbar_link {
+    margin: 10px 34px;
+}
+.navbar_link a{
+    color: white;
+    text-decoration: none;
+}
+.hightlight {
+    display: flex;
+    margin-top: 20px;
+}
+.hightlight_img {
+    width: 30%;
+}
+.hightlight_img img{
+    width: 100%;
+    height: 100%;
+}
+.hightlight_content{
+    margin-top: -22px;
+    width: 50%;
+    margin-left: 25px;
+}
+.hightlight_content h2{
+    color: rgb(212, 99, 118);
+}
+.hightlight_content p:nth-child(5) {
+    color: rgb(212, 99, 118);
+    font-weight: bold;
+}
+.hightlight_content ul {
+    color: rgb(46, 132, 230);
+    font-family: 'Ephesis','cursive';
+    font-weight: bold;
+}
+.bestSeller h1{
+    text-align: center;
+    padding-top: 30px;
+    color: green;
+}
+.list_seller {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin: 0 24px;
+}
+
+.bestSeller img {
+    width: 70%;
+}
+.seller_item {
+    border: 5px solid grey;
+    margin: 15px;
+  
+    text-align: center;
+    overflow: hidden;
+    border-radius: 8px;
+}
+.seller_item img {
+    padding: 10px;
+    
+}
+.seller_item h3 {
+    color: green;
+}
+.seller_item p {
+    color: red;
+}
+.seller_item div {
+    padding: 10px;
+    background-color: red;
+    color: white;
+    width: fit-content;
+    margin: auto;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+.footer {
+    background-color: green;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    margin-top: 10px;
+}
