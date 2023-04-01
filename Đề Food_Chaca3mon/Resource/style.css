@@ -1,0 +1,25 @@
+.container{
+    background-color: rgb(61, 55, 55);
+    color: white;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.food{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.food h1{
+    color: gold;
+}
+
+.footer{
+    background-color: grey;
+    border-top: 1px solid gold;
+    padding-top: 20px;
+}
+
