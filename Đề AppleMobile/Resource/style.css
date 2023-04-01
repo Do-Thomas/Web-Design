@@ -1,0 +1,116 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-header ul{ 
+    list-style: none;
+    display: flex;
+    
+}
+
+.menu-header ul li{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.menu-header a{
+    text-decoration: none;
+    
+}
+.button-header{
+    margin-top: 33px;
+    margin-right: 120px;
+    display: flex;
+}
+
+.button-header input{
+    padding: 5px;
+}
+
+.button-header button{
+    background-color: orange;
+    color: white;
+    border: orange;
+    padding: 5px;
+}
+/* 2 ảnh banner */
+.banner{
+    display: flex;
+}
+
+.banner img{
+    width: 50%;
+}
+
+h1{
+    color: red;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+}
+
+.content-left-img img{
+    width: 250%;
+    height: 100%;
+}
+
+.content-left{
+    margin-left: 550px;
+}
+.content-left h2{
+    color: rgb(14, 181, 181);
+}
+.content-left span{
+    color: orange;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+.footer{
+   background-color: orange;
+   color: white;
+   text-align: center; 
+   padding: 20px 20px;
+}
+
+.seller-list{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.seller-list img{
+    /* height: 222px;
+    width: 100%; */
+    width: 80%;
+    /* Hiển thị hình ảnh bằng bao nhiêu % ảnh gốc */
+    padding-bottom: 30px;
+}
+
+.seller-list-item{
+    width: 25%;
+    text-align: center;
+    margin: 10px;
+    border: 1px 1px 0 1px solid white;
+    /* Bo viền */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1); 
+    /*Tạo đổ bóng*/
+    position: relative; 
+}
+
+.seller-list-item p{
+    background-color: rgb(223, 147, 6);
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+
+.img_3 img {
+    width: 75.7%;
+}
