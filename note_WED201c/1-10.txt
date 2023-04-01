@@ -1,0 +1,50 @@
+Các cách sử dụng CSS in HTLM:
+1. Internal
+2. External
+3. Inline
+<h1 title="Đây là tiêu đề" style="color: cornflowerblue;font-size: 40px;">Attribute?
+            
+                Chào chị già
+CSS selector:
+ID & Class
+id: ko được trùng tên
+class: sử dụng cho nhiều phần tử khác nhau, trùng tên
+
+Mức độ ưu tiên trong CSS:
+External vs Internal: ko có sự ưu tiên
+		      ai vô sau thì hốt
+Inline: 1000 
+#id: 100
+.class: 10
+tag: 1
+<h1 style="color:blue "id=heading-id" class="heading-class">Priority? </h1>
+
+CSS Units: đơn vị trong CSS
+1. Absolute units:
+- px-pixel size
+- pt
+- cm
+- mm
+- inch
+- pc
+Relative units:
+%: phụ thuộc vào kích thước web
+- rem: phụ thuộc vào thẻ html 
+vd: box: width: 40px; h1: 2rem = 80px
+- em: phụ thuộc thẻ gần nhất chứa nó
+*viewpoint: đo theo kích thước của trình duyệt
+không quan trọng kích thước thẻ.
+- vw - width
+- vh - height
+- vmin
+
+CSS Padding: lớp đệm
+padding-top: 10px; tăng thêm 10px cho lớp đó.
+- padding: 10px 12px
++ top - down: 10px
++ left - right: 12px
+- padding 10px 12px 8px:
++ top: 10px
++ left - right: 12px
++ down: 8px
+=> theo chiều kim đồng hồ

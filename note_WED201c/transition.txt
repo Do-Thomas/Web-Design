@@ -1,0 +1,27 @@
+div{
+	color: #00000
+	backgroundL #2db34a
+	line-height: 200px;
+	text-align: center;
+	width: 250px;
+	height: 200px;
+	border-radius: 6px;
+}
+
+transition
+scale: độ rộng
+skew: biến đổi hình dạng
+matrix:
+rotate: quay
+
+Ex:
+div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s;
+}
+
+div:hover {
+  width: 300px;
+}
