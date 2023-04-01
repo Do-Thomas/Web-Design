@@ -1,0 +1,143 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-header img {
+    width: 150px;
+}
+
+.menu-header ul {
+    display: flex;
+    list-style: none;
+    margin-right: 320px;
+}
+
+.menu-header li {
+    align-items: center;
+    padding: 20px;
+}
+
+.menu-header a {
+    /* Xóa gạch chân */
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.search-header {
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.search-header button {
+    background-color: black;
+    color: white;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.title {
+    color: aqua;
+    text-align: center;
+}
+
+.tour-1 {
+    margin: 0 80px;
+    border-radius: 1px solid white;
+    box-shadow: 0 0 8px;
+    font-size: 16px;
+    text-align: justify;
+    padding-bottom: 20px;
+}
+
+.tour-1 p {
+    text-align: justify;
+    font-size: 20px;
+    padding-right: 25px;
+    vertical-align: 10px 10px;
+}
+
+.tour-1 h3{
+    font-size: 23px;
+}
+
+.tour-1 img {
+    padding-right: 10px;
+    float: left;
+    width: 40em;
+    height: 25em;
+}
+
+.summer {
+    padding-top: 50px;
+}
+
+.tour-2 {
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: flex-start;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    margin: 10px 120px;
+}
+
+.tour-2-item {
+    display: flex;
+    max-width: calc((100%/12)*5);
+    /* Đóng khung */
+    /* bo tròn góc đóng khung  */
+    border-radius: 10px solid white;
+    box-shadow: 0 0 8px;
+    /* Cho khung đè lên hình */
+    overflow: hidden;
+    margin: 20px 20px
+}
+
+
+.tour-2 img {
+    width: 50%;
+}
+
+.tour-2-item-content {
+    text-align: center;
+}
+
+.tour-3 {
+    display: flex;
+    /* border-radius: 10px solid white; */
+}
+
+.tour-3-item {
+    margin-left: 20px;
+    width: calc((100%/12)*4);
+    margin-top: 20px;
+    margin-bottom: 50px;
+    box-shadow: 0 0 8px;
+    /* Khỏi chơi màu với viền */
+    border-radius: 10px;
+    /* border-radius: 10px solid white; */
+    overflow: hidden;
+    text-align: center;
+}
+
+.tour-3-item img {
+    width: 100%;
+}
+
+.hotel1 {
+    margin-left: 80px;
+}
+
+.hotel4 {
+    margin-right: 80px;
+}
+
+.footer {
+    background-color: rgb(6, 161, 148);
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
