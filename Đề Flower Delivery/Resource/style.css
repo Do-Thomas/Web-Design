@@ -1,0 +1,99 @@
+.carousel-inner {
+    width: 100%;
+}
+
+.body {
+    background-color: rgb(204, 114, 129);
+}
+
+.body-content {
+    color: aliceblue;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.read {
+    margin-left: 480px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+
+}
+
+.read button{
+    border-radius: 20px;
+}
+
+.body-img {
+    display: flex;
+}
+
+.body-img img {
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+
+.logo img {
+    margin-left: 300px;
+}
+
+.list-flower {
+    display: flex;
+    background-color: rgb(247, 211, 217);
+}
+
+.item-flower {
+    background-color: rgb(241, 243, 244);
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.item-flower p {
+    color: red;
+    font-size: 20px;
+}
+
+.item-flower button {
+    margin-bottom: 10px;
+    height: 30px;
+    border-radius: 10px orange;
+}
+
+.footer {
+    padding-top: 20px;
+    background-color: rgb(126, 199, 16);
+    display: flex;
+}
+
+.footer-1-img {
+    margin-left: 100px;
+}
+
+.footer-1-location {
+    float: left;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+.footer-1-p {
+    margin-left: 200px;
+}
+
+.footer-2 {
+    margin-left: 200px;
+}
+
+.footer-2 p {
+    text-align: center;
+}
+
+.footer-2-logo img {
+    display: flex;
+}
+
+@media screen (max-width: 992px) {
+}
