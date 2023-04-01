@@ -1,0 +1,117 @@
+.menu_first{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 30px;
+}
+.menu_first img{
+    width: 150px;
+}
+.menu_first_content ul{
+    display: flex;
+    list-style: none;
+    margin-right: 350px;
+
+}
+
+.menu_first_content li{
+    align-items: center;
+    padding: 20px;
+
+}
+.menu_first_content a{
+    /* xoa dau gach chan */
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.menu_first_search button{
+    background-color: black;
+    color: white;
+}
+.menu_img{
+    width: 100%;
+}
+.boby_text_sin{
+    text-align: center;
+    color: rgb(98, 180, 152);
+}
+.body_content{
+    display: flex;
+    box-shadow: 5px 5px 5px 5px solid rgb(255, 255, 255);
+    /* đóng khung */
+    border: 2px solid rgb(198, 183, 183);
+    /* bo tròn góc đóng khung  */
+    border-radius: 8px;
+    /* cho khung đè lên hình */
+    overflow: hidden;
+    margin : 30px 120px;
+}
+.body_content_text{
+    text-align: justify;
+    padding: 10px;
+    vertical-align: 10px 10px;
+    margin-top: -20px;
+}
+.body_content_text p{
+    text-align: justify;
+    font-size: 20px;
+}
+.body_content_img img{
+    width: 720px;
+    height: 500px;
+    overflow: hidden;
+}
+.next_body{
+    display: flex;
+    margin: 10px 120px;
+}
+.next_body_content{
+    display: flex;
+    max-width: calc(100%/12*6);
+    box-shadow: 5px 5px 5px 5px solid rgb(255, 255, 255);
+    /* đóng khung */
+    border: 2px solid rgb(198, 183, 183);
+    /* bo tròn góc đóng khung  */
+    border-radius: 8px;
+    /* cho khung đè lên hình */
+    overflow: hidden;
+    margin: 10px 10px;
+}
+.next_body_content img{
+    width: 49%;
+}
+.hotel_item{
+    display: flex;
+    margin: 10px 120px;
+}
+.hotel_watch_item{
+    max-width: calc(100%/12*3);
+    box-shadow: 5px 5px 5px 5px solid rgb(255, 255, 255);
+    /* đóng khung */
+    border: 2px solid rgb(198, 183, 183);
+    /* bo tròn góc đóng khung  */
+    border-radius: 8px;
+    /* cho khung đè lên hình */
+    overflow: hidden;
+    margin: 10px 10px;
+}
+.hotel_watch_item img{
+    width: 100%;
+    height: 60%;
+}
+.hotel_watch_item_text{
+    text-align: center;
+}
+.hotel_watch_item_text p:nth-child(2){
+    color: red;
+}
+.sale{
+    color: rgb(97, 95, 95) !important;
+}
+.end_contact{
+    background-color: rgb(84, 189, 154);
+    padding: 10px 10px;
+    text-align: center;
+    color: aliceblue;
+}
