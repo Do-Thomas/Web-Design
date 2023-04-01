@@ -1,0 +1,26 @@
+/* Id */
+#first-heading {
+    color: blueviolet;
+}
+/* Class */
+.second-heading {
+    color: green;
+    font-size: 30px;
+}
+
+/* h1 {
+    color:red;
+} */
+
+/* Đặt biến */
+:root {
+    --text-color: green;
+}
+
+h1 {
+    color: var(--text-color);
+}
+
+h2 {
+    color: var(--text-color);
+}
